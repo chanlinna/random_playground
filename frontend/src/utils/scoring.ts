@@ -3,7 +3,7 @@ import type { CountryCharacteristic } from "../types/countryCharacteristic";
 import type { OptionCharacteristic } from "../types/optionCharacteristic";
 import type { Characteristic } from "../types/characteristic";
 import type { Answer } from "../types/game";
-import { REASON_PHRASES, FILLER_REASONS } from "../data/reasonphrases";
+import { REASON_PHRASES, FILLER_REASONS } from "../data/reasonPhrases";
 
 // Re-exported so anything that wants to display/label a weight (e.g. an
 // admin tool later) has one source of truth for what the numbers mean.
